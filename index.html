@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Mario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start-screen" id="startScreen">
+        <h1>Jogo do Mario</h1>
+        <button id="startButton">Iniciar</button>
+    </div>
+    <div class="game-board-container">
+        <div class="game-board">
+            <img src="img/mario.gif" class="mario" alt="Mario">
+            <img src="img/pipe.png" class="pipe" alt="Cano">
+            <img src="img/clouds.png" class="clouds" alt="Nuvens">
+        </div>
+        <img src="img/ground.png" class="ground" alt="Chão do Mario">
+    </div>
+    <div class="game-over-screen" id="gameOverScreen">
+        <h1>Game Over</h1>
+        <button id="restartButton">Reiniciar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
